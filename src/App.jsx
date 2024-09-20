@@ -3,9 +3,9 @@ import { useState } from "react";
 export default function App() {
   const [level, setLevel] = useState(0);
   const [imageIndex, setImageIndex] = useState(0);
-  const images = ["public/img/น้องหมูเด้ง.jpg", "public/img/นัน.jpg"];
-  const buttonImages = ["public/img/แตงโม.jpg", "public/img/ฟักทอง.jpg", "public/img/หญ้า.jpg"];
-  const backgroundImage = "public/img/หมูเด้ง.jpg"; 
+  const images = ["public/images/น้องหมูเด้ง.jpg", "public/images/นัน.jpg"];
+  const buttonImages = ["public/images/แตงโม.jpg", "public/images/ฟักทอง.jpg", "public/images/หญ้า.jpg"];
+  const backgroundImage = "public/imagesimg/หมูเด้ง.jpg"; 
 
   const increaseLevel = (increment) => {
     setLevel((prevLevel) => {
@@ -107,7 +107,7 @@ export default function App() {
     cursor: "pointer",
     borderRadius: "10px",
     border: "none",
-    backgroundColor: "#6ec7e2", // สีแดงเพื่อความสดใส
+    backgroundColor: "#6ec7e2", 
     color: "white",
     boxShadow: "0 4px 12px rgba(0, 0, 0, 0.3)",
     transition: "background-color 0.3s ease, transform 0.2s ease",
@@ -119,7 +119,7 @@ export default function App() {
   };
 
   const titleStyle = {
-    color: "#063d8c", // สีส้มเพื่อให้เข้ากับธีม
+    color: "#063d8c", 
     fontSize: "42px",
     fontWeight: "bold",
     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.3)",
