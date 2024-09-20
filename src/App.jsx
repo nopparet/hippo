@@ -5,7 +5,7 @@ export default function App() {
   const [imageIndex, setImageIndex] = useState(0);
   const images = ["/images/น้องหมูเด้ง.jpg", "/images/นัน.jpg"];
   const buttonImages = ["/images/แตงโม.jpg", "/images/ฟักทอง.jpg", "/images/หญ้า.jpg"];
-  const backgroundImage = "/imagesimg/หมูเด้ง.jpg"; 
+  const backgroundImage = "/images/หมูเด้ง.jpg"; 
 
   const increaseLevel = (increment) => {
     setLevel((prevLevel) => {
